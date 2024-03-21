@@ -6,7 +6,7 @@ function Navbar1() {
   return (
     <div className="navbar1">
       <div className="navbar1Text">
-        <div className="navbar1Text1">scoot</div>
+        <Link to={"/"} className="navbar1Text1">scoot</Link>
         <Link to={"/about"} className="linknav1">
           About
         </Link>

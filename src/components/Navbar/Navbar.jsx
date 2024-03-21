@@ -16,7 +16,7 @@ function Navbar() {
         <div className="divNavbar">
           <div className="divNavbar1">
             <List onClick={() => getMenyu()} className="list" />
-            <p className="logo">scoot</p>
+            <Link to={"/"} className="logo">scoot</Link>
             <Link to={"/about"} className="link">
               About
             </Link>
