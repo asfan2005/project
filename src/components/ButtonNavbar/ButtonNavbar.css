@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.buttonNavbar {
+  width: 100%;
+  height: 300px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  background-image: url("../img/Mask.svg");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: 100% 0%;
+}
+.btnNavbarText {
+  width: 414px;
+  color: #ffffff;
+  font-size: 48px;
+  font-family: monospace;
+  margin: auto;
+}
+.divPlay {
+  width: 370px;
+  margin: auto;
+  display: flex;
+  padding: 5px;
+  justify-content: space-around;
+}
+@media(max-width:1080px){
+   .buttonNavbar{
+      width: 100%;
+   }
+   .btnNavbarText{
+    padding: 15px;
+    font-size: 35px;
+   }
+}
+
+@media(max-width:768px){
+  .buttonNavbar{
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+  }
+  .btnNavbarText{
+    width: 100%;
+    margin: auto;
+  }
+  .btnNavbarText{
+    font-size: 48px;
+  }
+}
+
+@media(max-width:480px){
+  .buttonNavbar{
+    width: 100%;
+  }
+  .btnNavbarText{
+    font-size: 30px;
+  }
+}
+
+@media(max-width:400px){
+  .buttonNavbar{
+    width: 100%;
+  }
+  .btnNavbarText{
+    font-size: 25px;
+  }
+  .divPlay{
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  .divPlay img{
+    margin-top: 10px;
+  }
+}
+
+
+@media(max-width:400px){
+  .buttonNavbar{
+    width: 100%;
+  }
+  .btnNavbarText{
+    width: 100%;
+    font-size: 25px;
+  }
+  .divPlay img{
+    width: 150px;
+    margin-top: 10px;
+  }
+}

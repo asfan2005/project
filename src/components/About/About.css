@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.about {
+  width: 100%;
+  border: 2px solid;
+}
+.aboutDiv1 {
+  width: 100%;
+  height: 200px;
+  border: 2px solid rgba(10, 10, 48, 0.13);
+  background-image: url("../img/about.svg");
+  background-position: 100% 40%;
+}
+.aboutDiv1Text{
+   color: #ffff;
+   font-family: monospace;
+   font-size: 56px;
+   margin: 70px 50px;
+}
+
+@media(max-width:560px){
+   .aboutDiv1{
+      background-position: 10% 10%;
+      height: 150px;
+      text-align: center;
+      align-items: center;
+      font-size: 40px;
+   }
+   .aboutDiv1Text{
+      font-size: 40px;
+      margin: 50px auto;
+   }
+}
+
+@media (max-width:250px) {
+   .aboutDiv1Text{
+      font-size: 30px;
+   }
+}
+
+.aboutDiv2{
+   width: 100%;
+   margin-top:20px;
+   display: flex;
+   justify-content: space-between;
+}
+.aboutDiv2Text{
+   width: 445px;
+   margin: auto;
+}
+.aboutDiv2Text1{
+   color:  #495567;
+   font-size: 48px;
+   font-family: monospace;
+}
+.aboutDiv2Img{
+   width: 600px;
+}
+
+.aboutDiv2Text2{
+   font-family: monospace;
+   font-size: 16px;
+   color:#939CAA;
+   margin-top: 15px;
+}
+.aboutDiv2Img1{
+   display: none;
+}
+
+@media(max-width:1100px){
+   .aboutDiv2{
+      width: 100%;
+   }
+   .aboutDiv2Img{
+      width: 500px;
+   }
+   .aboutDiv2Text{
+      width: 400px;
+      padding: 10px;
+      margin-left: 20px;
+   }
+   .aboutDiv2Text1{
+      font-size: 40px;
+   }
+}
+
+
+@media(max-width:850px){
+   .aboutDiv2{
+      width: 100%;
+   }
+   .aboutDiv2Img{
+      width: 400px;
+   }
+   .aboutDiv2Text{
+      width: 350px;
+   }
+}
+
+@media(max-width:768px){
+   .aboutDiv2{
+      width: 100%;
+      flex-wrap: wrap;
+   }
+   .aboutDiv2Img{
+      display: none;
+   }
+   .aboutDiv2Img1{
+      width: 100%;
+      display: block;
+   }
+   .aboutDiv2Text{
+      width: 70%;
+      margin: 10px auto;
+      text-align: center;
+      align-items: center;
+   }
+}
+
+@media(max-width:500px){
+   .aboutDiv2{
+      width: 100%;
+   }
+   .aboutDiv2Text{
+      width: 90%;
+   }
+   .aboutDiv2Text1{
+      font-size: 30px;
+   }
+}
+
+@media(max-width:300px){
+   .aboutDiv2{
+      width: 100%;
+   }
+   .aboutDiv2Text{
+      width: 90%;
+   }
+   .aboutDiv2Text1{
+      font-size: 25px;
+   }
+}
+
+
